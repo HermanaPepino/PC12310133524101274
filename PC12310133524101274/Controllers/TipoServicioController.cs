@@ -12,6 +12,7 @@ namespace PC12310133524101274.Controllers
         public async Task<IActionResult> GetAll()
         {
             return Ok("GetAll");
+            //ASDASDAS
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
