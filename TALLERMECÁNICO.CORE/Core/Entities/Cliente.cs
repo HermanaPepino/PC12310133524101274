@@ -16,6 +16,7 @@ public partial class Cliente
     public string? Correo { get; set; }
 
     public string? Telefono { get; set; }
+//hola
 
     public virtual ICollection<Vehiculo> Vehiculo { get; set; } = new List<Vehiculo>();
 }
