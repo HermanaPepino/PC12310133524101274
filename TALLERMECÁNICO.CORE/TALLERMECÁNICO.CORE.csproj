@@ -13,7 +13,6 @@
     <Folder Include="Core\Services\" />
     <Folder Include="Infraestructure\Data\" />
     <Folder Include="Infraestructure\Shared\" />
-    <Folder Include="Infraestructure\Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
