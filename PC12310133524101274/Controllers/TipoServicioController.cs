@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 
+using TALLERMECÁNICO.CORE.Core.DTOs;
 
 namespace PC12310133524101274.Controllers
 {
@@ -17,22 +18,47 @@ namespace PC12310133524101274.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            return Ok($"GetById: {id}");
+           var result = new TipoServicioDTO
+            {
+                Id = id,
+                Nombre = "Tipo Servicio " + id,
+                Descripcion = "Descripción del tipo de servicio " + id,
+                Precio = 100.00m
+            };
+            return Ok(result);
         }
         [HttpPost]
         public async Task<IActionResult> Create()
         {
-            return Ok("Create");
+            var result = new TipoServicioDTO
+            {
+                Id = 1,
+                Nombre = "Tipo Servicio 1",
+                Descripcion = "Descripción del tipo de servicio 1",
+                Precio = 100.00m
+            }; return Ok(result);
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id)
         {
-            return Ok($"Update: {id}");
+            var result = new TipoServicioDTO
+            {
+                Id = id,
+                Nombre = "Tipo Servicio " + id,
+                Descripcion = "Descripción del tipo de servicio " + id,
+                Precio = 150.00m
+            };return Ok(result);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            return Ok($"Delete: {id}");
+           var result = new TipoServicioDTO
+            {
+                Id = id,
+                Nombre = "Tipo Servicio " + id,
+                Descripcion = "Descripción del tipo de servicio " + id,
+                Precio = 0.00m
+            }; return Ok(result);
         }
 
     }
