@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TALLERMECÁNICO.CORE.Data;
+namespace TALLERMECÁNICO.CORE.Infraestructure.Data;
 
 public partial class Cliente
 {

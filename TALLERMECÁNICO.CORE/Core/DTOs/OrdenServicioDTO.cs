@@ -14,7 +14,7 @@ namespace TALLERMECÁNICO.CORE.Core.DTOs
 
         public decimal? CostoEstimado { get; set; }
 
-        public char? Estado { get; set; }
+        public string? Estado { get; set; }
 
         public int VehiculoId { get; set; }
 

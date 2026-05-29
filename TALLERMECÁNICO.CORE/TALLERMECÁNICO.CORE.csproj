@@ -8,10 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Core\Entities\" />
-    <Folder Include="Core\Interfaces\" />
     <Folder Include="Core\Settings\" />
-    <Folder Include="Core\Services\" />
-    <Folder Include="Infraestructure\Data\" />
     <Folder Include="Infraestructure\Shared\" />
   </ItemGroup>
 

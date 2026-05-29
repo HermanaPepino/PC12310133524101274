@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace TALLERMECÁNICO.CORE.Data;
+namespace TALLERMECÁNICO.CORE.Infraestructure.Data;
 
 public partial class TallerMecanicoDbContext : DbContext
 {

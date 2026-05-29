@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using TALLERMECÁNICO.CORE.Core.DTOs;
+using TALLERMECÁNICO.CORE.Core.Interfaces;
 
 namespace TALLERMECÁNICO.API.Controllers
 {
